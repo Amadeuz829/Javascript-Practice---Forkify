@@ -121,9 +121,6 @@ async function submitForm(data) {
 
 }
 
-function hello() {
-  console.log("Hello Here")
-}
 
 function init() {
   addRecipeView.addHandlerSubmitForm(submitForm)
@@ -133,7 +130,6 @@ function init() {
   recipeView.addHandlerRender(controlRecipes)
   recipeView.addHandlerServing(controlServing)
   recipeView.addHandlerBooking(controlBook)
-  hello()
 }
 
 init()
